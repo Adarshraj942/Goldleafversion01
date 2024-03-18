@@ -21,6 +21,17 @@
             <link rel="stylesheet" href="assets/css/slick.css">
             <link rel="stylesheet" href="assets/css/nice-select.css">
             <link rel="stylesheet" href="assets/css/style.css">
+            <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>  
+   <script>
+    
+function googleTranslateElementInit(){
+    new google.translate.TranslateElement(
+        {pageLanguage:'en'},
+        'google_translate_element'
+    )
+}
+
+   </script>
    </head>
 
    <body class="body-bg">
@@ -52,9 +63,9 @@
                             <ul id="navigation">
                                 <li><a href="index.html">Home</a></li>
                                 <li><a href="GoldLeaf.html">Services</a></li>
-                                <li><a href="products.html">Products</a></li>
+                                <li><a href="products.html">Gallery</a></li>
                                 <li><a href="GoldLeafOriginals.html">GoldLeaf Originals</a></li>
-                                <li><a href="gallery.html">GoldLeaf</a></li>
+                                <li><a href="gallery.html">Process</a></li>
                                 <li><a href="about.html">About Us</a></li>
                                 <!-- <li ><a href="About_Us.html">English</a>
                                     <ul class="submenu">
@@ -63,20 +74,20 @@
                                         <li><a href="elements.html">Russian</a></li>
                                     </ul>
                                 </li> -->
-                                <li> </li>  
+                                <li >
+                                    <!-- <select onchange="changeLanguage(this.value)"  id="button" onclick="alert('Button Clicked!')" style="margin-right: 22px;">
+                                        <option value="en">English</option>
+                                        <option value="fr">French</option>
+                                      </select>  -->
+                                    <a  href="contact.html" >Contact Us</a>
+                                </li>  
                             </ul>
                             
                         </nav>
                       
                     </div>          
                     <!-- Header-btn -->
-                    <div class="header-btns d-none d-lg-block f-right">
-                        <!-- <select onchange="changeLanguage(this.value)"  id="button" onclick="alert('Button Clicked!')" style="margin-right: 22px;">
-                            <option value="en">English</option>
-                            <option value="fr">French</option>
-                          </select>  -->
-                          <a href="contact.html" class="btn header-btn">Contact Us</a>
-                    </div>
+                    <div style="width: 3rem;margin-right: 7rem; margin-bottom: 2rem;" id="google_translate_element"></div>
                     <!-- Mobile Menu -->
                     <div class="col-12">
                         <div class="mobile_menu d-block d-lg-none"></div>
@@ -90,7 +101,7 @@
     <main>
         <!--? Hero Start -->
         <div class="slider-area2">
-            <div class="slider-height2 hero-overly d-flex align-items-center" data-background="assets/img/hero/product.JPG">
+            <div class="slider-height2 hero-overly d-flex align-items-center" data-background="assets/img/hero/product.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -104,14 +115,14 @@
         </div>
         <!-- Hero End -->
         <!--? our info Start -->
-        <div class="our-info-area pt-170 pb-100 section-bg" data-background="assets/img/gallery/section_bg02.jpg">
-            <div class="container">
-                <div class="row justify-content-between">
+        <div  class="our-info-area pt-170 pb-100 section-bg" data-background="assets/img/gallery/section_bg02.jpg">
+            <div class="container" >
+                <div class="row justify-content-between" >
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-info mb-60" >
                             <div class="info-caption">
                                 <h4>MADE OF GOLD LEAF</h4>
-                                <p>For each project we establish relationships with partners who we know will help us. </p>
+                                <p> Pure gold leaf is an almost impalpable layer of precious metal, obtained by subjecting an ingot to 10 processing phases.  </p>
                             </div>
                         </div>
                     </div>
@@ -119,7 +130,7 @@
                         <div class="single-info mb-60">
                             <div class="info-caption">
                                 <h4>HANDWORK</h4>
-                                <p>For each project we establish relationships with partners who we know will help us. </p>
+                                <p> Its production requires exceptional craftsmanship and in-depth knowledge of the secrets of an ancient craft, which is constantly evolving.</p>
                             </div>
                         </div>
                     </div>
@@ -127,7 +138,7 @@
                         <div class="single-info mb-60">
                             <div class="info-caption">
                                 <h4>SELF ADHESIVE GOLD</h4>
-                                <p>For each project we establish relationships with partners who we know will help us. </p>
+                                <p>This is a method for applying gold leaf with an external adhesive material.Goldleaf will bond the target by its own. </p>
                             </div>
                         </div>
                     </div>
